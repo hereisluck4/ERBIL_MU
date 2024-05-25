@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- the link icon social and contact 2 links-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="footer.css">
+  <title>Your Website</title>
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* header of website start */
+    header {
+      background-color: #020202;
+      color: #ffffff;
+      padding: 10px 0;
+
+      text-align: center;
+    }
+    .logo {
+      width: 50px; /* Adjust size as needed */
+      height: 50px; /* Maintain aspect ratio */
+      display: inline-block;
+        
+      align-items: center;
+      vertical-align: middle;
+      border-radius: 50%;
+    }
+    h1 {
+      display: inline-block;
+      margin: 0;
+      vertical-align: middle;
+      align-items: center;
+      text-align: center;
+    }
+        /* header of website end */
+  /* 3 image of website start */
+.threimg{
+
+    margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content:space-evenly;
+
+}
+.threimg img{
+
+      width: 50%; /* Adjust the width as needed */
+      height: auto;
+      transition: transform 0.5s ease-in-out;
+}
+
+
+
+.threimg:hover img {
+    transform: scale(1.1);
+}
+  /* 2 image of website end */
+
+  .vertical-line {
+
+      width: 4px;
+      height: 600px; /* Adjust height as needed */
+      background-color: #000;
+      margin: 0 20px;
+      
+    }
+  
+
+
+    /* Text and photo container right and left */
+    .in-the-center-web {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%; /* Adjust the width as needed */
+        height: auto;
+
+
+    }
+
+    /* Text on the left side of the vertical line*/
+    .text-left-container {
+      
+       width: 50%; /* Adjust the width as needed */
+       height: auto;
+      margin: 0;
+      padding: 0;
+        
+    }
+
+    .text-left-container h1 {
+     font-size: 30px;
+      margin-top: -180px;
+      margin-left: 25%;
+      
+    }
+    .text-left-container h2 {
+     font-size: 30px;
+     margin-top:40px;
+      align-items: center;
+      text-align: center;
+    }
+    .text-left-container span {
+      
+      font-size: 16px;
+      margin-left: 44%;
+   
+    }
+
+
+    
+
+    /* Sample photo styles */
+    .photo-left-container img {
+      width: 400px;
+      height: auto;
+      border-radius: 5px;
+      padding: 0 0 0 250px;
+      margin-top: -60px;
+    }
+
+    form {
+            border-radius: 0px 12% 12% 0px;
+            border: 1px solid black;
+            margin: 20px;
+            margin-left: 0;
+            width: 120px;
+            padding: 5px;
+            margin-top: -200px;
+            background-color: #ebebeb;
+            
+        }
+
+        label {
+            display: block;
+            margin-bottom: 13px;
+            font-size: 18px;
+            font-weight: bolder;
+        }
+
+    /* Text on the right side of the vertical line */
+    .text-right-container {
+      
+      width: 50%; /* Adjust the width as needed */
+      height: auto;
+    }
+
+
+
+    
+   
+/* serch and input and buton start*/
+
+    .search-bar {
+          margin-top: 0px;
+          display: flex;
+        }
+
+        .search-input {
+          flex: 1;
+          margin-left: 55%;
+        }
+
+        .search-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            margin-top: -2px;
+            padding: 10px;
+            border-radius: 0px 12px 12px 0px;
+            cursor: pointer;
+            height: 38px;
+        }
+
+        /* serch and input and buton end*/
+
+     /* photo-right-container start */
+     .text-right-container .photo-right-container img{
+       
+       width: 350px;
+       height: auto;
+       border-radius: 5px; 
+
+   }
+
+/* text right container start*/
+   .text-right-container h2{
+      font-size: 30;
+      text-align: center;
+      padding-top: 30px;
+   }
+   /* text right container end*/
+
+   /* the 6 image start*/
+   .text-right-container img{
+
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;
+    
+    
+   }
+   /* the 6 image end*/
+
+
+   
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.jpg" alt="Logo" class="logo">
+  <h1>School Museum Erbil</h1>
+</header>
+
+<div class="threimg">
+
+    <img src="redbook.jpg" alt="">
+    <img src="dogdie.jpg" alt="">
+  
+</div>
+
+<!-- Your website content goes here -->
+
+<div class="in-the-center-web">
+    <div class="text-left-container">
+      <h1>First School in Erbil <br> <span><a href="next1.html" style=" text-decoration: none; color: #4CAF50;">Go to anuther page</a></span></h1>
+      
+
+      <div class="photo-left-container">
+        <img src="art.jpg" alt="Sample Photo">
+        <form>
+            <label for="continent1">Location <a  style="color: #4CAF50;" href="next.html"><i id="location-icon" class="fas fa-map-marker-alt"></i></a></label>
+
+            <label for="continent2">Contact <a style="color: #4CAF50;"  href=""><i id="contact-icon" class="fas fa-envelope"></i></a></label>
+
+            <label for="continent3">Address <a style="color: #4CAF50;" href=""><i id="address-icon" class="fas fa-address-card"></i></a></label>
+        </form>
+     
+      </div>
+      <br><br>
+      <h2><a href="next3.html" style="text-decoration: none; color:#000;">Explore school history</a></h2>
+      <br>
+      <br>
+      <h2><a href="next.html" style="text-decoration: none; color:#000;">Explore exhibition halls</a></h2>
+      <br>
+    </div>
+    <div class="vertical-line"></div> <!-- Vertical line -->
+    <div class="text-right-container">
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button type="button" class="search-button">Search</button>
+        </div>
+       <br>
+  
+        <div class="photo-right-container">
+          <img src="alphotogight.jpg" alt="Sample Photo">
+        </div>
+        <br>
+        <h2><a href="next2.html" style="text-decoration: none; color:#000; font-size: 30;">A place of lost Cultural Diversity</a></h2>
+        <br>
+
+        <img src="allpeoplephoto.jpg" alt="6 image">
+      </div>
+
+  </div>
+
+  <br>
+  <!-- bine wepsite ma  -->
+  <footer>
+    <div class="footer-content">
+      <div class="contact-us">
+        <h3>Contact Us</h3>
+        <p>Email: hereisluck4@gmail.com</p>
+        <p>Phone: +9647503982210</p>
+        <p>Address: Erbil Center, Erbil, Iraq</p>
+      </div>
+      <div class="social-media">
+        <h3>Social Media</h3>
+        <ul>
+          <li><a href="#" style="color: rgb(85, 85, 228);"><i  class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#" style="color: rgb(7, 215, 243);"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#" style="color: rgb(207, 46, 25);"><i class="fab fa-instagram"></i></a></li>
+          <!-- Add more social media icons and links as needed -->
+        </ul>
+      </div>
+      <div class="logo">
+        <img src="logo.jpg" alt="Footer Logo">
+      </div>
+    </div>
+  </footer>
+  
+  
+</body>
+</html>

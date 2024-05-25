@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- the link icon social and contact 2 links-->
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="footer.css">
+    <title>home</title>
+    <style>
+   body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: auto;
+            padding: 0;
+           
+
+   }
+
+   header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    position: fixed;
+            width: 100%;
+            top: 0;
+}
+
+
+.logo img{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.site-name {
+    font-size: 26px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+   
+----------------------------*/
+
+ 
+main {
+  padding: 80px 20px 20px 20px;
+  width: 100%;
+}
+
+.hall {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  animation: fadeInUp 1s ease-out;
+}
+
+
+main p{
+
+    font-size: 24px;
+    
+}
+.content {
+  flex-basis: 45%;
+  padding: 20px;
+  text-align: left;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  margin: 0 10px;
+}
+   
+
+p b{
+  text-align: justify;
+    font-size: 30px;
+}
+.content:hover {
+  transform: translateY(-10px);
+  background-color: #f1f1f1;
+}
+
+.vertical-line {
+  width: 5px;
+  height: 300px;
+  background-color: #333;
+  margin: 3% 20px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+
+
+    /*desin for buton to top start */
+    #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #4CAF50;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #eaece6;
+    color : #000000;
+}
+    /*desin for buton to top end */
+
+
+
+@media screen and (max-width: 768px) {
+
+
+  .hall {
+    flex-direction: column;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .content {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Animations */
+@keyframes slideInDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+      
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"> <img src="logo.jpg" alt="Website-logo"> </div>
+        <div class="site-name">School Museum Erbil</div>
+    </header>
+
+    
+    <!-- Scroll to top button -->
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top"><i class="fa fa-arrow-up scroll-to-top" aria-hidden="true"></i></button>
+
+
+
+<!--  the all about page image and heading and contact amazing  -->
+<main>
+ 
+<br><br><br><br>
+    <section class="hall">
+      <div class="content left-content">
+        <h2>Abdullah Aziz Hall</h2>
+        <p><b>A</b>bdullah Aziz, one of the early principals of the First Erbil School, was a pioneer of secular education and an important school book author. He wrote “Health and Science,” the most influential school book for science education in Iraq of its time.</p>
+      </div>
+      <div class="vertical-line"></div>
+      <div class="content right-content">
+        <h2>Ahmed Naji Hall</h2>
+        <p><b>A</b>hmed Naji was the one who initiated the foundation of the school, supervised its construction, and served as its principal from 1928-1934.</p>
+      </div>
+    </section>
+  
+    <section class="hall">
+      <div class="content left-content">
+        <h2>Ezzedine Fayzi Hall</h2>
+        <p><b>E</b>zzedine Fayzi, one of the school’s principals, was a prominent intellectual and a teacher, whose progressive ways of teaching heavily influenced education in the 1960s.</p>
+      </div>
+      <div class="vertical-line"></div>
+      <div class="content right-content">
+        <h2>Abdel Wahed Marjan Hall</h2>
+        <p><b>A</b>bdel Wahed Marjan was an artist who graduated from this school and later became a teacher there. He was one of the pioneers of art education in the 1970s.</p>
+      </div>
+    </section>
+  
+    <section class="hall">
+      <div class="content left-content">
+        <h2>Graduates Hall</h2>
+        <p><b>T</b>his hall portrays more than 100 graduates from the school who became important in one way or another in society in Iraq.</p>
+      </div>
+    <div class="vertical-line"></div>
+      <div class="content left-content">
+        <h2>Iskandar Othman hall</h2>
+        <p><b>I</b>skandar Othman was another artist who graduated from and taught at this school. He was one of the pioneers of fine arts in the 1970s.</p>
+      </div>
+    </section>
+  
+  </main>
+  
+
+  <br>
+  <!-- bine wepsite ma  -->
+  <footer>
+    <div class="footer-content">
+      <div class="contact-us">
+        <h3>Contact Us</h3>
+        <p>Email: hereisluck4@gmail.com</p>
+        <p>Phone: +9647503982210</p>
+        <p>Address: Erbil Center, Erbil, Iraq</p>
+      </div>
+      <div class="social-media">
+        <h3>Social Media</h3>
+        <ul>
+          <li><a href="#" style="color: rgb(85, 85, 228);"><i  class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#" style="color: rgb(7, 215, 243);"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#" style="color: rgb(207, 46, 25);"><i class="fab fa-instagram"></i></a></li>
+          <!-- Add more social media icons and links as needed -->
+        </ul>
+      </div>
+      <div class="logo">
+        <img src="logo.jpg" alt="Footer Logo">
+      </div>
+    </div>
+  </footer>
+  
+<script>
+  // scroll for page
+  let lastScrollTop = 0;
+  
+  window.addEventListener("scroll", function() {
+      let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      if (currentScroll > lastScrollTop){
+          // Scroll down
+          document.getElementById("scrollToTopBtn").style.display = "block";
+      } else {
+          // Scroll up
+          document.getElementById("scrollToTopBtn").style.display = "none";
+      }
+      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+  }, false);
+  
+  function scrollToTop() {
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+      });
+  }
+  
+  </script>
+
+</body>
+</html>

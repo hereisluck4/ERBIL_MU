@@ -1,0 +1,63 @@
+footer {
+    background-color: #020202;
+    color: #ffffff;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    align-items: center;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+  }
+  
+  .contact-us, .social-media, .logo {
+    flex-basis: 100%; /* Initially, each section takes up full width */
+    margin-bottom: 20px; /* Add some space between sections */
+    padding-left: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .contact-us, .social-media, .logo {
+       
+        text-align: center;
+      flex-basis: calc(33.33% - 20px); /* Adjust based on the number of columns you want */
+    }
+  }
+  
+  .contact-us h3, .social-media h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us p {
+    margin: 5px 0;
+  }
+  
+  .social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-media ul li a {
+    color: #ffffff;
+    font-size: 24px;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
